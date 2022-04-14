@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	position: relative;
+	font-size: 10px;
+	height: 100vh;
+	width: 100vw;
+}
+
+img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.header,
+.footer {
+	height: 5vh;
+	width: 100vw;
+	text-align: center;
+	background: #333;
+	color: #ccc;
+	display: -ms-grid;
+	display: grid;
+	align-items: center;
+}
+
+.header {
+	font-size: 1.5rem;
+}
+
+.footer {
+	font-size: 1rem;
+}
+
+.main-div {
+	display: flex;
+	align-items: flex-start;
+	justify-items: center;
+	flex-direction: column;
+	height: 95vh;
+	width: 100vw;
+}
+
+.top-div {
+	width: 100vw;
+	height: 20%;
+	border: 1px solid black;
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.top-div h1 {
+	font-weight: 400 !important;
+	font-style: italic;
+	font-size: 1.5rem !important;
+	color: black !important;
+	text-decoration: none !important;
+}
+
+.top-div span {
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.top-div label {
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.bottom-div {
+	width: 100vw;
+	height: 80%;
+	border: 1px solid black;
+}
+
+.select-problem-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+}
+
+.bottom-div {
+	display: flex;
+	align-items: center;
+}
+
+.bottom-left-div {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	padding: 0 1rem;
+	flex-wrap: wrap;
+}
+
+.bottom-left-div table,
+.bottom-left-div tbody,
+.bottom-left-div thead,
+.bottom-left-div tr,
+.bottom-left-div th,
+.bottom-left-div td,
+.bottom-left-div h1 {
+	text-align: center !important;
+}
+
+.bottom-left-div table {
+	width: 100%;
+}
+
+.bottom-left-div button {
+	padding: 2rem;
+}
+
+.bottom-left-div .button-div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bottom-left-div .button-div div {
+	width: 40%;
+}
+
+.bottom-right-div {
+	width: 70%;
+	height: 100%;
+	padding: 2rem;
+	display: -ms-grid;
+	display: grid;
+	align-items: center;
+}
+
+.bottom-right-div table,
+.bottom-right-div tbody,
+.bottom-right-div thead,
+.bottom-right-div tr,
+.bottom-right-div th,
+.bottom-right-div td {
+	text-align: center !important;
+}
+
+.bottom-right-div table {
+	width: 100%;
+}
+
+.bottom-left-div h1 {
+	font-weight: 400 !important;
+	font-style: italic;
+	font-size: 1.5rem !important;
+	color: black !important;
+	text-decoration: none !important;
+}
